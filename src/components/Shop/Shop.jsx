@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Shop.css'
-import Items from '../../Items/Items';
-import Order from '../../Order/Order';
+import Items from '../Items/Items';
+import Order from '../Order/Order';
 
 const Shop = () => {
 
