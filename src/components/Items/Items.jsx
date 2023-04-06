@@ -9,7 +9,6 @@ const Items = (props) => {
    const handelAddToCart = props.handelAddToCart;
    
    
-
    return (
       <div>
          <div className='item-container'>
@@ -21,7 +20,7 @@ const Items = (props) => {
                <p>Stock:{stock}</p>
                <p>Ratings: {ratings} star</p>
             
-               <button  onClick={()=> handelAddToCart ()} className='perches-btn'>
+               <button  onClick={()=> handelAddToCart (props.item)} className='perches-btn'>
                   Add To Cart
                <FontAwesomeIcon className='cart-icon' icon={faCartPlus} />
                

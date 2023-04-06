@@ -10,3 +10,10 @@ background-color: orange;
 color: aliceblue;
  width: 75%;
 }
+
+.product-info{
+   background-color: rgb(243, 201, 124);
+   padding: 25px;
+   position: sticky;
+   top: 0;
+}
